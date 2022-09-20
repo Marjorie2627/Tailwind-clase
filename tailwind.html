@@ -7,47 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
+
+       tailwind.config = {
             theme: {
-                extend: {
-                    colors: {
-                        aqua: '6CE0E2',
-                        clifford: '#da373d',
-                        clifford: '#da373d',
-                        clifford: '#da373d',
-                        clifford: '#da373d',
-                        clifford: '#da373d',
+                container: {
+                    center: true,
+                      padding: '2rem',
+                        extend: {
+                          colors: {
+                               clifford: '#da373d',
                     }
                 }
             }
+         }
         }
     </script>
     <title>Tailwind</title>
 </head>
 
 <body>
-    <div class="flex flex-wrap">
-        <div class="w-full lg:w-1/2 p-5">
-            <div class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-                <img src="https://media.istockphoto.com/vectors/gray-cat-with-crown-cute-cartoon-animal-vector-id1157975828"
-                    alt="" width="384" height="512"
-                    class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto">
-                <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-                    <div>
-                        <p class="text-lg font-medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Similique unde recusandae, explicabo animi nam iure repellat dolorem aut illo a!
-                        </p>
-                    </div>
-                    <div class="font-medium">
-                        <div class="text-sky-500 dark:text-sky-400">Neymar Jr</div>
-                        <div class="text-slate-700 dark:text-slate-500">
-                            Professional Soccer Player,Brazil
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class=" columns-3 md:container md:mx-auto">
+        
+      
+    <div class="row-2 lg:w-1/2">
+        <img class="w-full aspect-square" src="https://media.istockphoto.com/vectors/vector-cartoon-doodle-kitten-in-a-crown-cat-king-template-for-print-vector-id1075579878"  alt="" width="122" height="122" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" />
+        <img class="w-full aspect-square" src="https://i.pinimg.com/474x/4c/9f/ab/4c9fabc4567035030706c89ce6f99ed0.jpg" alt="" width="122" height="122" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"/>
+        <img class="w-full aspect-square" src="https://static.vecteezy.com/system/resources/previews/001/828/028/non_2x/cute-cat-face-with-crown-perfect-day-cartoon-animal-funny-character-free-vector.jpg" alt="" width="122" height="122" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"/>
+        <img class="w-full aspect-square bg-color:green" src="https://static.vecteezy.com/system/resources/previews/001/828/019/non_2x/hello-cat-face-with-crown-cartoon-animal-funny-character-free-vector.jpg" alt="" width="122" height="122" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"/>
     </div>
+    <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+        <img class="w-full aspect-square ..." src="https://media.istockphoto.com/vectors/gray-cat-with-crown-cute-cartoon-animal-vector-id1157975828" alt="" width="122" height="244" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"/>
+    </div>
+</div>
+    
 </body>
 
 </html>
